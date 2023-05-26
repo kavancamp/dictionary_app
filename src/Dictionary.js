@@ -10,6 +10,7 @@ export default function Dictionary({ defaultKeyword }) {
   const [results, setResults] = useState(null);
   // eslint-disable-next-line
   const [loaded, setLoaded] = useState(false);
+  // eslint-disable-next-line
   const [error, setError] = useState(null);
 
   function handleResponse(response) {
