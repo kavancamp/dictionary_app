@@ -3,6 +3,7 @@ import Result from "./Result";
 import "./Dictionary.css";
 import axios from "axios";
 import "./Dictionary.css";
+import { ReactComponent as Books } from "./images/books.svg";
 
 export default function Dictionary() {
   const [keyword, setKeyword] = useState("");
@@ -41,16 +42,19 @@ export default function Dictionary() {
   if (available) {
     return (
       <div className="Dictionary">
-        <h2>📚</h2>
+        <h2>
+          <Books />
+        </h2>
         <h1>What word would you like to learn?</h1>
         {searchForm}
         <Result results={results} />
       </div>
     );
   } else {
+    available();
     return (
       <div>
-        <h3>Sorry- No data available for this term</h3>
+        <h3> Sorry- No data available for {keyword}</h3>
         {searchForm}
       </div>
     );
