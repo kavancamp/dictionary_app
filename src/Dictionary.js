@@ -7,6 +7,7 @@ import "./Dictionary.css";
 export default function Dictionary() {
   const [keyword, setKeyword] = useState("");
   const [results, setResults] = useState(null);
+  // eslint-disable-next-line
   const [loaded, setLoaded] = useState(false);
 
   function handleResponse(response) {
