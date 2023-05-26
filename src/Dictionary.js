@@ -40,7 +40,7 @@ export default function Dictionary() {
   if (available) {
     return (
       <div className="Dictionary">
-        <h2>📖</h2>
+        <h2>📚</h2>
         <h1>What word would you like to learn?</h1>
         {searchForm}
         <Result results={results} />
