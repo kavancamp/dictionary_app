@@ -9,6 +9,8 @@
 }
 .text {
   padding-left: 20px;
+  color: #6ca87d;
+  font-weight: 700;
 }
 
 .sound {
@@ -16,13 +18,13 @@
   text-decoration: none;
   padding: 10px 15px;
   border-radius: 20px;
-  color: #9670f4;
+  color: #6ca87d;
   transition: all 150ms ease-in-out;
   margin-right: 10px;
   background-color: white;
 }
 
 .sound:hover {
-  background: #9670f4;
+  background: #6ca87d;
   color: white;
 }
