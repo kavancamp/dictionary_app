@@ -12,7 +12,7 @@ function App() {
         <footer>
           This project was coded by Keenah VanCampenhout and is hosted on{" "}
           <a
-            href="https://github.com/clarsongit/dictionary-project"
+            href="https://github.com/kavancamp/dictionary_app"
             target="_blank"
             rel="noopener noreferrer"
           >
