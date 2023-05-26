@@ -9,9 +9,10 @@
   font-size: 40px;
   font-weight: 700;
   text-align: center;
+  color: #6ca87d;
 }
 .Dictionary h2 {
-  font-size: 55px;
+  font-size: 30px;
   text-align: center;
   margin-top: 30px;
 }
@@ -36,4 +37,3 @@
   margin: 20px auto 25px;
   padding: 6px;
 }
-
