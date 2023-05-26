@@ -5,8 +5,8 @@ import axios from "axios";
 import "./Dictionary.css";
 import { ReactComponent as Books } from "./images/books.svg";
 
-export default function Dictionary() {
-  const [keyword, setKeyword] = useState("");
+export default function Dictionary({ defaultKeyword }) {
+  const [keyword, setKeyword] = useState(defaultKeyword);
   const [results, setResults] = useState(null);
   // eslint-disable-next-line
   const [loaded, setLoaded] = useState(false);
@@ -53,9 +53,13 @@ export default function Dictionary() {
   } else {
     available();
     return (
-      <div>
-        <h3> Sorry- No data available for {keyword}</h3>
+      <div className="Dictionary">
+        <h2>
+          <Books />
+        </h2>
+        <h1>What word would you like to learn?</h1>
         {searchForm}
+        <Result results={results} />
       </div>
     );
   }
