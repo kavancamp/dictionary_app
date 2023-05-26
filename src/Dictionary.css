@@ -4,3 +4,36 @@
   justify-content: center;
   text-align: center;
 }
+
+.Dictionary h1 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+.Dictionary h2 {
+  font-size: 55px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.Dictionary section {
+  background: white;
+  border-radius: 6px;
+  padding: 30px;
+  margin: 20px auto;
+  box-shadow: 0 5px 15px rgba(0 0 0 /10%);
+  max-width: 600px;
+}
+
+.Dictionary input {
+  width: 85%;
+  max-width: 500px;
+  padding: 6px 4px;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  display: block;
+  margin: 20px auto 25px;
+  padding: 6px;
+}
+
